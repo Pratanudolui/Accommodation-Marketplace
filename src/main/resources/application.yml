@@ -4,7 +4,7 @@ spring:
   config:
     import: optional:file:.env[.properties]
   datasource:
-    url: ${DATASOURCE_URL:jdbc:mysql://localhost:3306/quickcart_db}
+    url: ${DATASOURCE_URL:jdbc:mysql://localhost:3306/quickstart_db}
     username: ${MYSQL_USER:root}
     password: ${MYSQL_PASSWORD:Dolui@2021}
   jpa:
